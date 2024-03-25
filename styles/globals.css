@@ -37,3 +37,22 @@ h6 {
 p {
     @apply max-w-sm text-[21px] font-normal leading-8 lg:max-w-2xl xl:max-w-4xl text-center;
 }
+
+label, textarea {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+textarea {
+  max-width: 100%;
+  padding: 10px;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #999;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
